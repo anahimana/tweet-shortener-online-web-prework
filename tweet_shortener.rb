@@ -21,6 +21,7 @@ sample_str = "Hey guys, can anyone teach me how to be cool? I really want to be 
 
 sample_str2 = "OMG you guys, you won't believe how sweet my kitten is. My kitten is like super cuddly and too cute to be believed right?"
 
+sample_arr = [sample_str, sample_str2]
 
 def word_substituter(str)
   new_str_arr = []
@@ -34,5 +35,4 @@ end
 def bulk_tweet_shortener
 end
 
-puts [sample_str, sample_str2]
 # puts bulk_tweet_shortener(sample_str)
