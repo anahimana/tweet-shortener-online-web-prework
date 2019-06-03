@@ -26,9 +26,9 @@ new_str_arr = []
 #   |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
 # }
 
-# str_arr.each {
-#   |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
-# }
+str_arr.each {
+  |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
+}
 
 
 new_str_arr.join(" ")
