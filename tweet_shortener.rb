@@ -17,7 +17,7 @@ def dictionary(word)
   words[word.to_sym]
 end
 
-sample_str = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
+# sample_str = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
 
 def word_substituter(str)
   new_str_arr = []
@@ -27,4 +27,4 @@ def word_substituter(str)
   new_str_arr.join(" ")
 end
 
-puts word_substituter(sample_str)
+# puts word_substituter(sample_str)
