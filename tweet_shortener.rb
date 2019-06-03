@@ -21,3 +21,4 @@ sample_str = "Hey guys, can anyone teach me how to be cool? I really want to be 
 
 puts sample_str.split
 
+end
