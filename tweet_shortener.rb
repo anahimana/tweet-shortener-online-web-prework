@@ -24,7 +24,6 @@ str_arr = sample_str.split
 new_str_arr = []
 str_arr.each {
   |word| dictionary(word) ? new_str_arr << dictionary(word)
-  
 }
 new_str_arr
 end
