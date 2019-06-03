@@ -26,6 +26,8 @@ def word_substituter(str)
     |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
   }
   
+  str.split.each do |word|
+  end
   new_str_arr.join(" ")
 end
 
