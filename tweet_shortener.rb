@@ -44,6 +44,7 @@ def shortened_tweet_truncator(str)
   if str.length > 140
     str[0..140] + "..."
   end
+  str
 end
 
 puts shortened_tweet_truncator(sample_str)
