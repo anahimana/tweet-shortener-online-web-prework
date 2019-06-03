@@ -30,9 +30,6 @@ str.split.each {
   |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
 }
 
-  str.split.collect do |word|
-    dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
-  end
 
 new_str_arr.join(" ")
 end
