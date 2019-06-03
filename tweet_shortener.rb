@@ -24,5 +24,6 @@ str_arr = sample_str.split
 new_str_arr = []
 str_arr.each do |word|
 end
+end
 
 puts word_substituter
