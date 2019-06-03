@@ -26,7 +26,10 @@ new_str_arr = []
 #   |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
 # }
 
-sample_str = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
+# str_arr.each {
+#   |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
+# }
+
 
 new_str_arr.join(" ")
 end
