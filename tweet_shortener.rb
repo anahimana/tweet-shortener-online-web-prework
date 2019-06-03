@@ -1,4 +1,5 @@
 # Write your code here.
+require 'pry'
 # Define dictionary method
 # Method takes a string and it's corresponding value from a hash of words
 def dictionary(word)
