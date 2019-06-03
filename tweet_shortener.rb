@@ -35,4 +35,4 @@ end
 def bulk_tweet_shortener
 end
 
-# puts bulk_tweet_shortener(sample_str)
+puts bulk_tweet_shortener(sample_arr)
