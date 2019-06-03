@@ -27,7 +27,7 @@ def word_substituter(str)
   }
   
   
-    str.split.each {
+    str.split.each 
     |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
   }
   
