@@ -33,6 +33,7 @@ end
 
 
 def bulk_tweet_shortener(arr)
+  arr.each
 end
 
 puts bulk_tweet_shortener(sample_arr)
