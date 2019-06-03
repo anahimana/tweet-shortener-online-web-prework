@@ -32,7 +32,7 @@ def word_substituter(str)
 end
 
 
-def bulk_tweet_shortener
+def bulk_tweet_shortener(arr)
 end
 
 puts bulk_tweet_shortener(sample_arr)
