@@ -22,7 +22,7 @@ sample_str = "Hey guys, can anyone teach me how to be cool? I really want to be 
 
 str_arr = sample_str.split
 new_str_arr = []
-str_arr.each {|word| dictionary(word)}
+str_arr.each {|word| new_str_arr<< dictionary(word)}
 end
 
 puts word_substituter
