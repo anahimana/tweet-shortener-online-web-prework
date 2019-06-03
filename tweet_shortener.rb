@@ -14,7 +14,7 @@ def dictionary(word)
     "at": '@',
     "and": '&'
   }
-  words[word.to_sym]
+  words[word.downcase.to_sym]
 end
 
 sample_str = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
