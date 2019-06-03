@@ -21,7 +21,7 @@ sample_str = "Hey guys, can anyone teach me how to be cool? I really want to be 
 
 def word_substituter(str)
   new_str_arr = []
-  
+
   str.split.each do |word|
     dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
   end
