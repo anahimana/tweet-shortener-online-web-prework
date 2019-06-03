@@ -23,7 +23,7 @@ end
 
 # sample_str3 = "GUISEEEEE this is so fun! I'm tweeting for you guys and this tweet is SOOOO long it's gonna be way more than you would think twitter can handle, so shorten it up you know what I mean? I just can never tell how long to keep typing!"
 
-sample_arr = [sample_str, sample_str2]
+# sample_arr = [sample_str, sample_str2]
 
 def word_substituter(str)
   new_str_arr = []
