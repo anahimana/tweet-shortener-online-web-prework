@@ -41,3 +41,4 @@ def selective_tweet_shortener(str)
 end
 
 puts selective_tweet_shortener(sample_str)
+puts selective_tweet_shortener(sample_str)
