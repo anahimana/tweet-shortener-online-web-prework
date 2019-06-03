@@ -31,6 +31,7 @@ str.split.each {
 }
 
 str.split.collect do |word|
+end
 
 new_str_arr.join(" ")
 end
