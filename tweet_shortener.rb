@@ -36,4 +36,4 @@ def bulk_tweet_shortener(arr)
   arr.each {|item| puts word_substituter(item)}
 end
 
-(sample_arr)
+puts bulk_tweet_shortener(sample_arr)
