@@ -29,4 +29,4 @@ str_arr.each {
 new_str_arr.join(" ")
 end
 
-puts word_substituter
+puts word_substituter(sample_str)
