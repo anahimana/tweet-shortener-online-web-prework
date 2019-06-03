@@ -23,4 +23,4 @@ string_arr = sample_str.split
 string_arr
 end
 
-word_substituter
+puts word_substituter
