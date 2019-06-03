@@ -48,7 +48,7 @@ def shortened_tweet_truncator(str)
     str[0..140] + "..."
     puts "Hello!"
   end
-  str
+  new_str
 end
 
 # puts shortened_tweet_truncator(sample_str)
