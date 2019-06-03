@@ -26,7 +26,7 @@ new_str_arr = []
 #   |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
 # }
 
-str_arr.each {
+str.split.each {
   |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
 }
 
