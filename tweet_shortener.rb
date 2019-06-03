@@ -46,5 +46,5 @@ def shortened_tweet_truncator(str)
   end
 end
 
-# puts selective_tweet_shortener(sample_str)
+puts shortened_tweet_truncator(sample_str)
 # puts selective_tweet_shortener(sample_str2)
