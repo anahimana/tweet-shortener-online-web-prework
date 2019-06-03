@@ -34,4 +34,5 @@ end
 def bulk_tweet_shortener
 end
 
-# puts word_substituter(sample_str)
+puts [sample_str sample_str2]
+# puts bulk_tweet_shortener(sample_str)
