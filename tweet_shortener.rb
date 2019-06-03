@@ -25,7 +25,7 @@ new_str_arr = []
 str_arr.each {
   |word| dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
 }
-new_str_arr
+new_str_arr.join(" ")
 end
 
 puts word_substituter
