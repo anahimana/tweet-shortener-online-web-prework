@@ -20,7 +20,6 @@ end
 sample_str = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
 
 def word_substituter(str)
-
 str_arr = str.split
 new_str_arr = []
 str_arr.each {
