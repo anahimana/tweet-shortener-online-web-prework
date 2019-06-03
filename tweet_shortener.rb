@@ -31,7 +31,7 @@ str.split.each {
 }
 
   str.split.collect do |word|
-    
+    dictionary(word) ? new_str_arr << dictionary(word) : new_str_arr << word
   end
 
 new_str_arr.join(" ")
